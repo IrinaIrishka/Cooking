@@ -1,0 +1,119 @@
+body {
+    background: blanchedalmond;
+}
+header {
+    display:grid;
+    grid-template-columns: 10% 65% 1fr;
+    height: 12%; 
+    margin-top:0%;
+    margin-bottom: 0%; 
+}
+.block {
+    background: red;   
+    font-stretch:extra-expanded;
+	font-size:1px;
+    color:rgb(214, 82, 29);
+    height: 50px;
+    width: 100px;
+}
+.title {
+    text-align: center;
+    padding:3%;   
+    background: blanchedalmond;
+    font-stretch:extra-expanded;
+	text-align:center;
+	font-size:67px;
+    color:rgb(214, 82, 29);
+    font-style: italic;
+    text-decoration: none;
+}
+.vhod, .registr {
+    text-align: center;
+    background: blanchedalmond;
+    font-stretch:extra-expanded;
+	text-align:center;
+	font-size:35px;
+    color:rgb(214, 82, 29);
+    font-style: italic;
+    text-decoration: underline;
+}
+.mainContent {
+    display: inline-block;
+    background: blanchedalmond;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.myRecipes {
+    display: inline-block;
+    margin-left:20px;
+    margin-top:0;
+}
+.formVhod {
+    display:inline-block;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.toRegistr {
+    display:inline-block;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.pageRegistr {
+    margin-top:5%;
+    margin-left: 30%;
+}
+.text {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+.content {
+    margin:1%;
+}
+.authNow {
+    text-align: center;
+    background: blanchedalmond;
+    font-stretch:extra-expanded;
+    text-align:center;
+    font-size:23px;
+    font-style: italic;
+}
+a:hover {
+    color:rgb(214, 82, 29);
+}
+a {
+    color:mediumslateblue;
+}
+.createRecipe {
+    margin-top:0%;
+    margin-left: 25%;
+}
+img {
+    width:375px;
+    height:250px;
+}
+.one {
+    display: inline-block;
+    margin-left:10%;  
+}
+.two {
+    display: inline-block;
+    margin-left: 13%;
+}
+h1 {
+    text-align: center;
+}
+#go {
+    font-size: 18px;
+    font-weight: none;   
+}
+#user {
+    font-size: 22px;
+    color:rgb(214, 82, 29); 
+    text-decoration:none;
+}
+.toMain {
+    margin-top: 4%;
+    margin-left: 4%;
+}
